@@ -28,7 +28,7 @@
 The user sees various fields asking for information that is required to predict the price of a flight. Every user input has its own dropdown where the user can select their input.
 After providing the required input and pressing the submit button, the page refreshes and displays the predicted price of the flight.</h4>
 <br>
-<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/90ba410ad7168da23b25c58fd8dd1b1e218ea24b/static/images/Predictor%20Page.png">
+<img src = "https://user-images.githubusercontent.com/89390696/173227905-8f26cd2b-4cff-475f-8c1d-3ec88b30df68.png">
 <br><br>
 
 <h3>1.3 About Us Page</h3>
@@ -46,5 +46,5 @@ After providing the required input and pressing the submit button, the page refr
 <h2>3. Results Page</h2>
 <h4>On the predictor page, the user provides all the asked information and then clicks on submit button. The predicted fare of the selected flight is displayed to the user.</h4>
 <br>
-<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/4a87f498af2235372e455285c6dbb6c6947252f1/static/images/Predictor%20Page%20with%20Output.png">
+<img src = "https://user-images.githubusercontent.com/89390696/173227905-8f26cd2b-4cff-475f-8c1d-3ec88b30df68.png">
 <br><br>
