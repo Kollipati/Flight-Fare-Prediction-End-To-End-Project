@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding:0px
+}
+body {
+    background-image: url('images\\bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+float: left;
+}
+  
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active{
+    background-color: rgb(16, 199, 16);
+}
+
+.content{
+    height: 82vh;
+    width: 1525px;
+}
+
+form{
+    text-align: center;
+    padding-right: 170px;
+}
+
+#heading{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-family: "monotype corsiva", cursive;
+    font-size: 40px;
+}
+
+#para1{
+    text-align: center;
+    text-transform: inherit;
+    font-family: Cambria,serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#but1{
+    text-align: center;
+    background-color: white;
+    border: 2px solid #111;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+}
+
+#but1:hover{
+    background-color: rgb(212, 208, 208);
+}
+
+footer{
+    background-color: #333;
+    bottom: 0;
+    position: fixed;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    width: 100%;
+}

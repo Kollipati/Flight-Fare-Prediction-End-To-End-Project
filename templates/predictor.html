@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Fare Predictor</title>
+    <link rel="stylesheet" href="..\static\styles2.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="/predictor">Predictor</a></li>
+        <li><a href="/about">About Us</a></li>
+    </ul>
+
+    <h2 id = "heading">Flight Fare Predictor</h2>
+    <p id = "para2">Enter the Details to get an estimated Flight Ticket Price!</p>
+
+    <form action = "/predictor" method = "POST">
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                            <h3 class = "subhead">Departure Date</h3>
+                            <!-- Departure -->
+                            <input id = "AD" type="datetime-local" name="Dep_Time" id="Dep_Time" required="required">
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <h3 class = "subhead">Arrival Date</h3>
+                        <!-- Arrival -->
+                        <input id = "AD" type="datetime-local" name="Arr_Time" id="Arr_Time" required="required">
+                    </div>
+                </td>
+                <td>
+                    <div class = "card">
+                        <h3 class = "subhead">Source</h3>
+                        <!-- Source-->
+                        <select name="Source" id="SD" required="required">
+                            <option value="Delhi">Delhi</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Chennai">Chennai</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="card">
+
+                        <h3 class = "subhead">Destination</h3>
+                        <!-- Destination-->
+                        <select name="Destination" id="SD" required="required">
+                            <option value="Cochin">Cochin</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="New Delhi">New Delhi</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Kolkata">Kolkata</option>
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <h3 class = "subhead">Select your Airline</h3>
+                        <!--Airlines-->
+                        <select name="Airline" id="Airline" required="required">
+                            <option value="Jet Airways">Jet Airways</option>
+                            <option value="IndiGo">IndiGo</option>
+                            <option value="Air India">Air India</option>
+                            <option value="Multiple carriers">Multiple carriers</option>
+                            <option value="SpiceJet">SpiceJet</option>
+                            <option value="Vistara">Vistara</option>
+                            <option value="Air Asia">Air Asia</option>
+                            <option value="GoAir">GoAir</option>
+                            <option value="Multiple carriers Premium economy">Multiple carriers
+                                Premium economy </option>
+                            <option value="Jet Airways Business">Jet Airways Business</option>
+                            <option value="Vistara Premium economy">Vistara Premium economy
+                            </option>
+                            <option value="Trujet">Trujet</option>
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+
+                        <h3 class = "subhead">Total Stops</h3>
+                        <!-- Total Stops-->
+                        <select name="Total_stops" id="SD" required="required">
+                            <option value="0">Non-Stop</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class = "col">
+                    <!-- submit button -->
+                    <button id ="Submit" type = "submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+
+    <h3 id = "pred">{{prediction_text}}</h3>
+
+    <footer>
+        <p>&copy Kollipati Vamshi Krishna 2022</p>
+    </footer>
+
+
+
+
+</body>
+
+</html>

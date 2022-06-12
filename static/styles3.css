@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Scope+One&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+float: left;
+}
+  
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active){
+background-color: #111;
+}
+
+.active{
+    background-color: rgb(16, 199, 16);
+}
+
+footer{
+    background-color: #333;
+    bottom: 0;
+    position: relative;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    width: 100%;
+}
+
+body{
+    background-image: url('images\\bgimg3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.wrapper{
+    margin : 10px;
+    margin-top: 50px;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+
+.wrapper h2{
+    line-height: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size : 65px; 
+    margin-bottom: 50px;
+    color: black
+}
+
+.team{
+   margin-top: 15px;
+   align-items: center;
+   display: flex;
+   width: auto;
+}
+
+
+
+/* Vedant Section */
+
+.team .mem1{
+    background:#fff;
+    margin: 5px;
+    width: 70vw;
+    height: 80vh;
+    margin-bottom: 50px;
+    padding-top: 5px;
+}
+.team .mem1 h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 41px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+
+.team .mem1 .about1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    height: 120px;
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    
+}
+
+.team .mem1 .next{
+    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    line-height: 4px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.team .mem1 .git1
+{   border: 1px solid #54a0ff;
+    background: #54a0ff;
+    padding: 8px 11px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.team .mem1 .linked1
+{   border: 1px solid #54a0ff;
+    background: #54a0ff;
+    padding: 8px 11px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.team .mem1 .img1{
+
+    margin : 10px;
+    padding: 0;
+}
+
+
+
+
+
+/* Ritik Section */
+
+
+
+
+.team .mem2{
+    background:#fff;
+    margin: 5px;
+    width: 70vw;
+    height: 80vh;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.team .mem2 h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 41px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.team .mem2 .about2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    height: 120px;
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.team .mem2 .next2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    line-height: 4px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    }
+
+
+.team .mem2 .git2
+{   border: 1px solid #54a0ff;
+    background: #54a0ff;
+    padding: 8px 11px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.team .mem2 .linked2
+{   border: 1px solid #54a0ff;
+    background: #54a0ff;
+    padding: 8px 11px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+    
+
+.team .mem2 .img2{
+
+    margin : 10px;
+    padding: 0;
+    
+}
