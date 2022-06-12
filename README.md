@@ -34,7 +34,7 @@ After providing the required input and pressing the submit button, the page refr
 <h3>1.3 About Us Page</h3>
 <h4>The About us page holds a short summary about the people who have contributed in building this project. There are social links attached as well in case someone wants to contact the people behind this project.</h4>
 <br>
-<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/d0badd766984d5569255712494f3dbfe278fd174/static/images/About%20Us%20Page.png">
+<img src = "https://user-images.githubusercontent.com/89390696/173228090-5cda79e8-a29f-4b5f-935d-28921f5f065c.png">
 <br><br>
   
 <h2>2. User Input</h2>
