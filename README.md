@@ -40,7 +40,7 @@ After providing the required input and pressing the submit button, the page refr
 <h2>2. User Input</h2>
 <h4>On the predictor page, the user has to provide all the information asked for the prediction. The user can select from the drop down lists attached to each of the input fields. Once, all the asked information is provided, the user clicks on submit button to get the output.</h4>
 <br>
-<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/4a87f498af2235372e455285c6dbb6c6947252f1/static/images/Predictor%20Page%20with%20Input.png">
+<img src = "https://user-images.githubusercontent.com/89390696/173227741-62ba6915-fb47-4772-8554-7c8e9ac7df9c.png">
 <br><br>
 
 <h2>3. Results Page</h2>
