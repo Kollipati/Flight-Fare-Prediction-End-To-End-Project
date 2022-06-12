@@ -20,7 +20,7 @@
 <h3>1.1 Landing Page</h3>
 <h4>When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.</h4>
 <br>
-<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/7a9f498abdcdedc7cfcc35a23644e7cf33ba26fd/static/images/Welcome%20Page.png">
+<img src = "https://user-images.githubusercontent.com/89390696/173227741-62ba6915-fb47-4772-8554-7c8e9ac7df9c.png">
 <br><br>
 
 <h3>1.2 Predictor Page</h3>
